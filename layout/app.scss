@@ -1,0 +1,14 @@
+// sass --watch scss/estilos.scss:css/estilos.css
+@import 'base/normalize';
+
+@import 'scss/variaveis';
+@import 'scss/mixins';
+
+@import 'scss/blog';
+@import 'scss/contato';
+@import 'scss/destaque';
+@import 'scss/footer';
+@import 'scss/geral';
+@import 'scss/header';
+@import 'scss/planos';
+@import 'scss/sobre';
