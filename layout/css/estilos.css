@@ -396,6 +396,18 @@ th {
   padding: 0;
 }
 
+.plataformas li {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.plano button, .destaque button, .contato button {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
 /** Blog **/
 .blog {
   display: block;
@@ -474,8 +486,6 @@ textarea {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
 /** Destaque **/
@@ -510,8 +520,6 @@ textarea {
   -o-border-radius: 50px;
   -ms-border-radius: 50px;
   border-radius: 50px;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
 
@@ -535,7 +543,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #1e2c35;
+  background: #304756;
   top: 0;
   left: 0;
   bottom: 0;
@@ -676,7 +684,7 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #1e2c35;
+  background: #304756;
 }
 .planos h2 {
   color: #fff;
@@ -718,8 +726,6 @@ header .container {
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
 
@@ -782,10 +788,6 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 1em 1.5em 0 0;
 }
 .plataformas li:nth-child(1) {
