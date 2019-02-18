@@ -38,29 +38,25 @@ header .container {
   position: relative;
 }
 
-.menu-opcoes {
+.menu-principal {
   position: absolute;
   right: 0;
   top: -0.5em;
   font-size: 1.2em;
   font-weight: lighter;
 }
-
-.menu-opcoes ul {
+.menu-principal ul {
   padding-left: 0;
 }
-
-.menu-opcoes li {
+.menu-principal li {
   display: inline-block;
   width: 5em;
 }
-
-.menu-opcoes a {
+.menu-principal a {
   color: white;
   text-decoration: none;
 }
-
-.menu-opcoes a:hover {
+.menu-principal a:hover {
   text-decoration: underline;
 }
 
@@ -73,22 +69,18 @@ header .container {
   height: 330px;
   padding-top: 10em;
 }
-
 .destaque p {
   width: 30em;
 }
-
 .destaque p:first-child {
   width: 30em;
   font-size: 1.3em;
   line-height: 1.1;
 }
-
 .destaque p:first-child:first-line {
   font-size: 2.2em;
   font-weight: bold;
 }
-
 .destaque button {
   margin-top: 1em;
   background: #c24e4b;
@@ -132,7 +124,6 @@ header .container {
 .plataformas {
   padding: 0;
 }
-
 .plataformas li {
   display: inline-block;
   width: 50px;
@@ -143,19 +134,15 @@ header .container {
   background-position: center;
   margin: 1em 1.5em 0 0;
 }
-
 .plataformas li:nth-child(1) {
   background-image: url(../imagens/logo-apple.png);
 }
-
 .plataformas li:nth-child(2) {
   background-image: url(../imagens/logo-android.png);
 }
-
 .plataformas li:nth-child(3) {
   background-image: url(../imagens/logo-windows.png);
 }
-
 .plataformas li:nth-child(4) {
   background-image: url(../imagens/logo-blackberry.png);
 }
@@ -164,7 +151,6 @@ header .container {
 .planos {
   background: #1e2c35;
 }
-
 .planos h2 {
   color: #fff;
 }
@@ -176,11 +162,9 @@ header .container {
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
 }
-
 .plano:hover {
   background: #dedede;
 }
-
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
@@ -190,33 +174,11 @@ header .container {
   padding-top: 0.6em;
   margin-top: 0;
 }
-
 .plano div {
   text-align: center;
   color: #c24e4b;
   font-size: 2.75em;
 }
-
-.itens-plano {
-  padding-left: 1.2em;
-}
-
-.itens-plano li {
-  font-size: 1em;
-  list-style: none;
-  border-bottom: 1px solid #acacac;
-  padding: 0.5em;
-  width: 14.8em;
-}
-
-.itens-plano li:last-child {
-  border: 0;
-}
-
-.itens-plano span {
-  float: right;
-}
-
 .plano button {
   background: #c24e4b;
   border: 0;
@@ -232,6 +194,23 @@ header .container {
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
+}
+
+.itens-plano {
+  padding-left: 1.2em;
+}
+.itens-plano li {
+  font-size: 1em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  padding: 0.5em;
+  width: 14.8em;
+}
+.itens-plano li:last-child {
+  border: 0;
+}
+.itens-plano span {
+  float: right;
 }
 
 .icone-check, .icone-x {
